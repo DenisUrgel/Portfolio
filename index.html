@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/général.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/image/icone/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/image/icone/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/image/icone/favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="/image/icone/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="/image/icone/favicon_io/site.webmanifest" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img src="/image/icone/Logo_Denis.png" alt="logo denis" id="logo" />
+        <div id="mobile_burger">
+          <img src="image/bouton-de-menu.png" alt="burger_mobile" />
+        </div>
+      </div>
+      <ul class="menu_mobile" id="menu_mobile">
+        <a href="#" id="lien_accueil_menu"><li id="accueil_menu">Accueil</li></a>
+        <a href="a_propos.html" id="lien_a_propos_menu"><li id="a_propos_menu">À Propos</li></a>
+        <a href="projets.html" id="lien_projets_menu"><li  id="projets_menu">Projets</li></a>
+        <a href="veille.html" id="lien_veille_menu"><li id="veille_menu">Veille</li></a>
+      </ul>
+    </header>
+    <main>
+      <div class="contenu">
+        <h1 class="titre">Portfolio</h1>
+        <div class="presentation">
+          <img
+            src="image/icone/image_presentation.avif"
+            class="image_presentation"
+            alt="bureau"
+          />
+          <div class="div_texte_presentation">
+            <p id="texte_presentation">
+              Bienvenue sur mon portfolio réaliser lors de mon
+              <a href="a_propos.html" id="lien_bts_apropos"
+              ><strong>BTS SIO</strong></a
+              >
+              option <strong>SLAM</strong>.
+            </p>
+          </div>
+        
+        </div>
+        <h2 class="sous_titre">Me contacter</h2>
+        <div class="contact">
+          <form
+            action="https://formspree.io/f/mzzdavyr"
+            method="post"
+            class="formulaire"
+          >
+            <div class="identity">
+              <label>
+                <p>Email:</p>
+                <input
+                  type="email"
+                  autocomplete="additional-name"
+                  name="email"
+                  id="email_input"
+                />
+              </label>
+              <label>
+                <p>Prénom:</p>
+                <input type="text" name="prenom" id="prenom" />
+              </label>
+            </div>
+            <label>
+              <p>Message:</p>
+              <textarea name="message" id="message"></textarea>
+            </label>
+            <button type="submit" class="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p id="texte_footer">2025@denisurgel</p>
+    </footer>
+    <script src="js/header.js"></script>
+  </body>
+</html>

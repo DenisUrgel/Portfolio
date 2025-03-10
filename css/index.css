@@ -1,0 +1,55 @@
+.presentation {
+  .image_presentation{
+    width: 100%;
+    border-radius: 10px;
+    align-content: center;
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+  align-items: center;
+  margin: 30px 0;
+}
+.contact{
+  align-items: center;
+  .formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .identity{
+      display: flex;
+      gap: 10px;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      input, textarea{
+        color: black;
+        border-radius: 8px;
+      }
+    }
+
+    #message{
+      height: 100px;
+    }
+    .submit{
+      align-self: center;
+      padding: 10px;
+      background-color: gray;
+      color: white;
+      border-color: gray;
+      border-radius: 8px;
+      width: 30%;
+      &:hover{
+        background-color: rgba(128, 128, 128, 0.726);
+        cursor: pointer;
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
+footer {
+  position: relative;
+}
