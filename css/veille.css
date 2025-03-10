@@ -4,3 +4,10 @@
     flex-direction: column;
     gap: 30px;
 }
+
+.lien_utile{
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    gap: 20px;
+}
