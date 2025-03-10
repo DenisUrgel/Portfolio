@@ -19,6 +19,10 @@
   }
 }
 
+.qui_suis_je{
+  margin-bottom: 20px;
+}
+
 .div_cv {
   display: flex;
   flex-direction: column;
