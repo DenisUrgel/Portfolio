@@ -1,5 +1,5 @@
 .presentation {
-  .image_presentation{
+  .image_presentation {
     width: 100%;
     border-radius: 10px;
     align-content: center;
@@ -11,13 +11,13 @@
   align-items: center;
   margin: 30px 0;
 }
-.contact{
+.contact {
   align-items: center;
-  .formulaire{
+  .formulaire {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    .identity{
+    .identity {
       display: flex;
       gap: 10px;
     }
@@ -25,16 +25,17 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      input, textarea{
+      input,
+      textarea {
         color: black;
         border-radius: 8px;
       }
     }
 
-    #message{
+    #message {
       height: 100px;
     }
-    .submit{
+    .submit {
       align-self: center;
       padding: 10px;
       background-color: gray;
@@ -42,7 +43,7 @@
       border-color: gray;
       border-radius: 8px;
       width: 30%;
-      &:hover{
+      &:hover {
         background-color: rgba(128, 128, 128, 0.726);
         cursor: pointer;
         box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
@@ -50,6 +51,14 @@
     }
   }
 }
+.div_tabl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 50%;
+}
+
 footer {
   position: relative;
 }
