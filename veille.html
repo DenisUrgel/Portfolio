@@ -1,106 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/général.css" />
-    <link rel="stylesheet" href="css/veille.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/image/icone/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/image/icone/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/image/icone/favicon_io/favicon-16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="image/icone/favicon_io/favicon.ico"
-    />
-    <link rel="manifest" href="image/icone/favicon_io/site.webmanifest" />
-    <title>Veille - Portfolio</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="header">
-        <a href="../index.html"
-          ><img src="/image/icone/Logo_Denis.png" alt="logo denis" id="logo"
-        /></a>
-        <div id="mobile_burger">
-          <img src="image/bouton-de-menu.png" alt="burger_mobile" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/général.css" />
+  <link rel="stylesheet" href="css/veille.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/image/icone/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/image/icone/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/image/icone/favicon_io/favicon-16x16.png" />
+  <link rel="icon" type="image/png" href="image/icone/favicon_io/favicon.ico" />
+  <link rel="manifest" href="image/icone/favicon_io/site.webmanifest" />
+  <title>Veille - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <a href="../index.html"><img src="/image/icone/Logo_Denis.png" alt="logo denis" id="logo" /></a>
+      <div id="mobile_burger">
+        <img src="image/bouton-de-menu.png" alt="burger_mobile" />
       </div>
-      <ul class="menu_mobile" id="menu_mobile">
-        <a href="index.html" id="lien_accueil_menu">
-          <li id="accueil_menu">Accueil</li>
-        </a>
-        <a href="a_propos.html" id="lien_a_propos_menu">
-          <li id="a_propos_menu">À Propos</li>
-        </a>
-        <a href="projets.html" id="lien_projets_menu">
-          <li id="projets_menu">Projets</li>
-        </a>
-        <a href="#" id="lien_veille_menu">
-          <li id="veille_menu">Veille</li>
-        </a>
-      </ul>
-    </header>
-    <main>
-      <div class="contenu">
-        <h1 class="titre">Veille Technologique</h1>
-        <div class="presentation_veille">
-          <p class="def_veille">
-            La veille technologique consiste à s’informer de façon systématique
-            sur les techniques les plus récentes et surtout sur leur mise à
-            disposition commerciale et ainsi rester informer sur les nouveautés.
-          </p>
-          <p>
-            Pour ma veille technologique j'ai choisi de me concentrer sur
-            <strong>l'injection sql</strong>.
-          </p>
-          <p>
-            L’injection SQL ou faille SQLi, désigne les attaques qui utilise les
-            failles des applications qui interagissent avec une base de données,
-            en modifiant une requête en cours en lui donnant des morceaux de
-            requête non prévu, souvent dans un formulaire.
-          </p>
-        </div>
-        <div class="lien_utile">
-          <a
-            href="https://www.vaadata.com/blog/fr/injections-sql-principes-impacts-exploitations-bonnes-pratiques-securite/"
-            target="_blank"
-            class="Lien"
-            >Vaadata</a
-          >
-          <a
-            href="https://openclassrooms.com/fr/courses/7727176-realisez-un-test-dintrusion-web/7917166-attaquez-la-base-de-donnees-avec-les-injections-sql"
-            target="_blank"
-            class="Lien"
-            >openclassrooms</a
-          >
-          <a
-            href="https://www.oracle.com/fr/security/injection-sql-attaque/"
-            target="_blank"
-            class="Lien"
-            >Oracle</a
-          >
-        </div>
+    </div>
+    <ul class="menu_mobile" id="menu_mobile">
+      <a href="index.html" id="lien_accueil_menu">
+        <li id="accueil_menu">Accueil</li>
+      </a>
+      <a href="a_propos.html" id="lien_a_propos_menu">
+        <li id="a_propos_menu">À Propos</li>
+      </a>
+      <a href="projets.html" id="lien_projets_menu">
+        <li id="projets_menu">Projets</li>
+      </a>
+      <a href="#" id="lien_veille_menu">
+        <li id="veille_menu">Veille</li>
+      </a>
+    </ul>
+  </header>
+  <main>
+    <div class="contenu">
+      <h1 class="titre">Veille Technologique</h1>
+      <div class="presentation_veille">
+        <p class="def_veille">
+          La veille technologique consiste à s’informer de façon systématique
+          sur les techniques les plus récentes et surtout sur leur mise à
+          disposition commerciale et ainsi rester informer sur les nouveautés.
+        </p>
+        <p>
+          Pour ma veille technologique j'ai choisi de me concentrer sur
+          <strong>l'injection sql</strong>.
+        </p>
+        <p>
+          L’injection SQL ou faille SQLi, désigne les attaques qui utilise les
+          failles des applications qui interagissent avec une base de données,
+          en modifiant une requête en cours en lui donnant des morceaux de
+          requête non prévu, souvent dans un formulaire.
+        </p>
       </div>
-    </main>
-    <footer>
-      <p id="texte_footer">2025@denisurgel</p>
-    </footer>
-    <script src="js/header.js"></script>
-  </body>
+      <div class="lien_utile">
+        <a href="https://www.vaadata.com/blog/fr/injections-sql-principes-impacts-exploitations-bonnes-pratiques-securite/"
+          target="_blank" class="Lien">Vaadata</a>
+        <a href="https://openclassrooms.com/fr/courses/7727176-realisez-un-test-dintrusion-web/7917166-attaquez-la-base-de-donnees-avec-les-injections-sql"
+          target="_blank" class="Lien">openclassrooms</a>
+        <a href="https://www.oracle.com/fr/security/injection-sql-attaque/" target="_blank" class="Lien">Oracle</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="https://www.linkedin.com/in/denis-urgel-37a4b627a/"><img src="/image/icone/linkedin_logo.png"
+        alt="linkedin" class="lien_linkedin"></a>
+    <p id="texte_footer">2025@denisurgel</p>
+  </footer>
+  <script src="js/header.js"></script>
+</body>
+
 </html>
