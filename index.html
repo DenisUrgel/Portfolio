@@ -6,11 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/général.css" />
   <link rel="stylesheet" href="css/index.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/image/icone/favicon_io/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/image/icone/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/image/icone/favicon_io/favicon-16x16.png" />
   <link rel="shortcut icon" href="/image/icone/favicon_io/favicon.ico" type="image/x-icon" />
-  <link rel="manifest" href="/image/icone/favicon_io/site.webmanifest" />
+  <link rel="manifest" href="/image/icone/favicon_io/site.webmanifest"/>
   <title>Portfolio</title>
 </head>
 
@@ -29,17 +26,23 @@
       <a href="a_propos.html" id="lien_a_propos_menu">
         <li id="a_propos_menu">À Propos</li>
       </a>
+      <a href="realisationMissions.html" id="lien_realisation_menu">
+        <li id="realisation_menu">Réalisations et Missions</li>
+      </a>
       <a href="projets.html" id="lien_projets_menu">
         <li id="projets_menu">Projets</li>
       </a>
       <a href="veille.html" id="lien_veille_menu">
         <li id="veille_menu">Veille</li>
       </a>
+      <a href="contact.html" id="lien_contact_menu">
+        <li id="contact_menu">Contact</li>
+      </a>
     </ul>
   </header>
   <main>
     <div class="contenu">
-      <h1 class="titre">Portfolio</h1>
+      <h1 class="titre" id="titre">Portfolio</h1>
       <div class="presentation">
         <img src="image/icone/image_presentation.avif" class="image_presentation" alt="bureau" />
         <div class="div_texte_presentation">
@@ -49,34 +52,6 @@
             option <strong>SLAM</strong>.
           </p>
         </div>
-      </div>
-      <div class="div_tabl">
-        <p>
-          Ci-joint un tableau de synthèse qui regroupe ce que j'ai réaliser
-          lors de mes deux années en BTS SIO, en formation et en entreprise :
-        </p>
-        <!-- convertir le tableau en pdf -->
-        <a href="Tableau de synthèse - Epreuve E5 - BTS SIO 2025.pdf" target="_blank" class="Lien">Tableau</a>
-      </div>
-      <h2 class="sous_titre">Me contacter</h2>
-      <div class="contact">
-        <form action="https://formspree.io/f/mzzdavyr" method="post" class="formulaire">
-          <div class="identity">
-            <label>
-              <p>Email:</p>
-              <input type="email" autocomplete="additional-name" name="email" id="email_input" />
-            </label>
-            <label>
-              <p>Prénom:</p>
-              <input type="text" name="prenom" id="prenom" />
-            </label>
-          </div>
-          <label>
-            <p>Message:</p>
-            <textarea name="message" id="message"></textarea>
-          </label>
-          <button type="submit" class="submit">Envoyer</button>
-        </form>
       </div>
     </div>
   </main>

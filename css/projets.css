@@ -3,7 +3,9 @@
     width: 100%;
     display: flex;
   }
+
   gap: 20px;
+
   .div_projet {
     margin: 15px 0;
     transition: ease 0.2s;
@@ -11,30 +13,35 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: lightgray 3px 6px 10px 5px;
+
     img {
       width: 100px;
       height: auto;
       border-radius: 10px;
       margin-bottom: 10px;
+
       @media screen and (min-width: 768px) {
         width: 200px;
       }
+
       @media screen and (min-width: 1024px) {
         width: 300px;
       }
     }
+
     a {
       text-decoration: none;
     }
   }
+
   .div_projet:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.476);
+    box-shadow: 0 6px 10px #3797d1;
   }
 }
 
-.projets{
-  .sous_titre{
+.projets {
+  .sous_titre {
     justify-self: center;
   }
 }

@@ -4,14 +4,17 @@
   align-items: center;
   width: 80%;
   gap: 20px;
+
   .def {
     div {
       margin: 15px 0;
     }
+
     @media screen and (min-width: 992px) {
       display: flex;
       justify-content: center;
       gap: 40px;
+
       div {
         width: 50%;
       }
@@ -19,7 +22,7 @@
   }
 }
 
-.qui_suis_je{
+.qui_suis_je {
   margin-bottom: 20px;
 }
 
@@ -27,4 +30,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.div_tabl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
 }
