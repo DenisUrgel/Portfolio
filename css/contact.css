@@ -1,7 +1,8 @@
 .contact {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
     svg {
         height: 23rem;
@@ -150,6 +151,23 @@
 
         div {
             align-content: center;
+        }
+    }
+}
+
+.lien_reseau {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .lien_linkedin, .lien_github {
+        width: 80px;
+        border-radius: 50%;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #3797d1;
         }
     }
 }

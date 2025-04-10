@@ -51,7 +51,7 @@
         <!-- // SVG
         from: https://www.freepik.com/free-vector/new-message-concept-landing-page_5777076.htm -->
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none">
             <g id="Image">
                 <g id="g14">
                     <g id="g16">
@@ -482,23 +482,32 @@
                     </g>
                 </g>
             </g>
-        </svg>
+        </svg> -->
 
         <form class="formulaire" action="https://formspree.io/f/mzzdavyr" method="post">
             <h1 class="title text-center mb-4" id="titre">Me contacter</h1>
+
+            <div class="lien_reseau">
+                <a href="https://www.linkedin.com/in/denis-urgel-37a4b627a/" target="_blank"><img src="/image/icone/linkedin_logo.png"
+                        alt="linkedin" class="lien_linkedin"></a>
+                <a href="https://github.com/DenisUrgel"  target="_blank"><img src="/image/icone/github_logo.png"
+                        alt="github" class="lien_github"></a>
+            </div>
 
             <div class="form-group position-relative">
                 <label for="formName" class="d-block">
                     <i class="icon" data-feather="user"></i>
                 </label>
-                <input type="text" id="prenom" name="prenom" class="form-control form-control-lg thick" placeholder="Prénom">
+                <input type="text" id="prenom" name="prenom" class="form-control form-control-lg thick"
+                    placeholder="Prénom">
             </div>
 
             <div class="form-group position-relative">
                 <label for="formEmail" class="d-block">
                     <i class="icon" data-feather="mail"></i>
                 </label>
-                <input type="email" id="email" name="email" class="form-control form-control-lg thick" placeholder="E-mail">
+                <input type="email" id="email" name="email" class="form-control form-control-lg thick"
+                    placeholder="E-mail">
             </div>
 
             <div class="form-group message">
@@ -512,6 +521,9 @@
         </form>
 
     </div>
+    <footer>
+        <p id="texte_footer">&copy;2025 Mon Portfolio - Tous droits réservés</p>
+    </footer>
     <script src="js/contact.js"></script>
     <script src="js/header.js"></script>
 </body>

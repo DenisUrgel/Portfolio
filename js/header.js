@@ -31,6 +31,14 @@ burgerMobile.addEventListener('click', () => {
         menuContact.style.height = "0";
         menuRealisation.style.height = "0";
 
+        menuMobile.style.fontSize = "0";
+        menuAccueil.style.fontSize = "0";
+        menuApropos.style.fontSize = "0";
+        menuProjets.style.fontSize = "0";
+        menuVeille.style.fontSize = "0";
+        menuContact.style.fontSize = "0";
+        menuRealisation.style.fontSize = "0";
+
         lienAccueil.style.padding = "0";
         lienApropos.style.padding = "0";
         lienProjets.style.padding = "0";
@@ -47,6 +55,15 @@ burgerMobile.addEventListener('click', () => {
         menuVeille.style.height = "100%";
         menuContact.style.height = "100%";
         menuRealisation.style.height = "100%";
+
+        menuMobile.style.fontSize = "24px";
+        menuAccueil.style.fontSize = "24px";
+        menuApropos.style.fontSize = "24px";
+        menuProjets.style.fontSize = "24px";
+        menuVeille.style.fontSize = "24px";
+        menuContact.style.fontSize = "24px";
+        menuRealisation.style.fontSize = "24px";
+
 
         lienAccueil.style.padding = "10px";
         lienApropos.style.padding = "10px";
