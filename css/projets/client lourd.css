@@ -1,5 +1,26 @@
-.lien_info{
+.lien_info {
     display: flex;
+    margin: 20px 0;
+}
+
+.contenu {
+    img{
+        border-radius: 15px;
+    }
+}
+
+.flèche_retour{
+    width: 50px;
+    &:hover{
+        width: 70px;
+        transition: ease-in-out 2s;
+    }
+}
+
+.row {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    margin: 40px 0;
     align-items: center;
-    gap: 10px;
 }
