@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 24px;
   color: black;
+  font-family: 'Pacifico', cursive;
 }
 
 body {
@@ -101,7 +102,7 @@ body {
 .Lien {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  text-decoration : none;
+  text-decoration: none;
   height: 2.5rem;
   line-height: 2.5rem;
   padding: 0 3rem;
@@ -128,7 +129,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #3797d1;
-  padding: 15px 0 ;
+  padding: 15px 0;
   align-items: center;
   gap: 5px;
 

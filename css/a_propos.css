@@ -1,29 +1,25 @@
-.description {
+.doc_lier {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
-  gap: 20px;
-
-  .def {
-    div {
-      margin: 15px 0;
-    }
-
-    @media screen and (min-width: 992px) {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-
-      div {
-        width: 50%;
-      }
-    }
-  }
+  margin-bottom: 50px;
 }
 
-.doc_lier{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+.div_competence {
+  ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+    img {
+      width: 100px;
+    }
+  }
 }
