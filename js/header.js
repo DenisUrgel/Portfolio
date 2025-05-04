@@ -1,5 +1,5 @@
 let menuAccueil = document.getElementById('accueil_menu');
-let menuApropos = document.getElementById('a_propos_menu');
+let menuBts = document.getElementById('bts_menu');
 let menuEcoleEntreprise = document.getElementById('ecole_entreprise_menu');
 let menuProjets = document.getElementById('projets_menu');
 let menuVeille = document.getElementById('veille_menu');
@@ -7,7 +7,7 @@ let menuContact = document.getElementById('contact_menu');
 let menuRealisation = document.getElementById('realisation_menu');
 
 let lienAccueil = document.getElementById('lien_accueil_menu');
-let lienApropos = document.getElementById('lien_a_propos_menu');
+let lienBTS = document.getElementById('lien_bts_menu');
 let lienEcoleEntreprise = document.getElementById('lien_ecole_entreprise_menu');
 let lienProjets = document.getElementById('lien_projets_menu');
 let lienVeille = document.getElementById('lien_veille_menu');
@@ -27,7 +27,7 @@ burgerMobile.addEventListener('click', () => {
     if (openMenu == false) {
         menuMobile.style.height = "0";
         menuAccueil.style.height = "0";
-        menuApropos.style.height = "0";
+        menuBts.style.height = "0";
         menuEcoleEntreprise.style.height = "0";
         menuProjets.style.height = "0";
         menuVeille.style.height = "0";
@@ -36,7 +36,7 @@ burgerMobile.addEventListener('click', () => {
 
         menuMobile.style.fontSize = "0";
         menuAccueil.style.fontSize = "0";
-        menuApropos.style.fontSize = "0";
+        menuBts.style.fontSize = "0";
         menuEcoleEntreprise.style.fontSize = "0";
         menuProjets.style.fontSize = "0";
         menuVeille.style.fontSize = "0";
@@ -44,7 +44,7 @@ burgerMobile.addEventListener('click', () => {
         menuRealisation.style.fontSize = "0";
 
         lienAccueil.style.padding = "0";
-        lienApropos.style.padding = "0";
+        lienBTS.style.padding = "0";
         lienEcoleEntreprise.style.padding = "0";
         lienProjets.style.padding = "0";
         lienVeille.style.padding = "0";
@@ -55,7 +55,7 @@ burgerMobile.addEventListener('click', () => {
     } else {
         menuMobile.style.height = "100%";
         menuAccueil.style.height = "100%";
-        menuApropos.style.height = "100%";
+        menuBts.style.height = "100%";
         menuEcoleEntreprise.style.height = "100%";
         menuProjets.style.height = "100%";
         menuVeille.style.height = "100%";
@@ -64,7 +64,7 @@ burgerMobile.addEventListener('click', () => {
 
         menuMobile.style.fontSize = "24px";
         menuAccueil.style.fontSize = "24px";
-        menuApropos.style.fontSize = "24px";
+        menuBts.style.fontSize = "24px";
         menuEcoleEntreprise.style.fontSize = "24px";
         menuProjets.style.fontSize = "24px";
         menuVeille.style.fontSize = "24px";
@@ -73,7 +73,7 @@ burgerMobile.addEventListener('click', () => {
 
 
         lienAccueil.style.padding = "10px";
-        lienApropos.style.padding = "10px";
+        lienBTS.style.padding = "10px";
         lienEcoleEntreprise.style.padding = "10px";
         lienProjets.style.padding = "10px";
         lienVeille.style.padding = "10px";
@@ -89,8 +89,8 @@ burgerMobile.addEventListener('click', () => {
         case 'Portfolio':
             lienAccueil.style.display = "none";
             break;
-        case 'À Propos':
-            lienApropos.style.display = "none";
+        case 'BTS':
+            lienBTS.style.display = "none";
             break;
         case 'École et Entreprise':
             lienEcoleEntreprise.style.display = "none";
