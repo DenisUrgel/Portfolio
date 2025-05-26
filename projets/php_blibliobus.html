@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/général.css" />
-  <link rel="stylesheet" href="../css/projets/glpi.css" />
+  <link rel="stylesheet" href="../css/projets/client_leger.css" />
+  <link rel="stylesheet" href="../css/projets/client lourd.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/image/icone/favicon_io/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/image/icone/favicon_io/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/image/icone/favicon_io/favicon-16x16.png" />
@@ -48,7 +49,7 @@
   </header>
   <main>
     <div class="contenu">
-      <a href="../projets.html">&lArr;</a>
+      <a href="../projets.html"><img src="../image/icone/flèche.png" alt="flèche_retour" class="flèche_retour"></a>
       <h1 class="titre">Client Léger bibliobus</h1>
       <p class="context">
         Dans le cadre de ma formation en BTS SIO option SLAM, j'ai réaliser un
@@ -60,11 +61,42 @@
         tournée.
       </p>
       <a href="https://github.com/DenisUrgel/php_bibliobus.git" class="Lien" target="_blank">Page Github</a>
-      <a href="../Document_récapitulatif_Projet_E5.pdf" class="Lien" target="_blank">Document récapitulatif</a>
+
+      <div class="main_pic">
+        <p>Cette page est l’écran d’accueil pour les utilisateurs non connectés. <br>
+        
+        On y retrouve les principales options publiques telles que l'inscription avec les tarifs ou la connexion.
+        Si l’utilisateur a perdu son mot de passe, il peut lancer une procédure de réinitialisation qui lui enverra un email
+        sécurisé contenant un lien de changement de mot de passe. <br>
+        
+        Cette interface de départ permet de sécuriser l’accès aux fonctions réservées et de guider efficacement les nouveaux utilisateurs.</p>
+        <br>
+        <img src="../image/accueilwebnolog.png" alt="php_bibliobus" />
+      </div>
+      <div class="row">
+        <p>Voici l’interface d’accueil d’un utilisateur connecté. <br>
+        
+        L’utilisateur a désormais accès à de nouvelles fonctionnalités : consulter la liste des livres, effectuer des
+        réservations, suivre ses prêts, et accéder à son profil personnel. Il peut également contacter le support via un
+        formulaire. <br>
+        
+        L’interface est pensée pour permettre à l’usager de gérer son expérience dans la bibliothèque de manière simple et efficace.</p>
+        <img src="../image/accueilwebuser.png" alt="php_bibliobus" />
+      </div>
+      <div class="row">
+        <img src="../image/accueilwebadmin.png" alt="php_bibliobus" />
+        <p>Cette capture montre l’accueil d’un administrateur. <br>
+        
+        En plus des fonctionnalités classiques d’un utilisateur, l’admin dispose d’un accès à un espace d’administration. Il
+        peut y gérer les utilisateurs, les livres, les réservations ou les tournées. <br>
+        
+        Cette séparation des droits garantit une application sécurisée, avec des droits spécifiques à chaque rôle. Le
+        back-office admin permet de piloter l’ensemble de la base et les opérations critiques de la plateforme.</p>
+      </div>
     </div>
   </main>
   <footer>
-    <p id="texte_footer">denisurgel&copy;2025</p>
+    <p id="texte_footer">&copy;2025 Mon Portfolio - Tous droits réservés</p>
   </footer>
   <script src="../js/header.js"></script>
 </body>
