@@ -18,6 +18,8 @@
 
 .row {
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
 
   @media screen and (min-width: 768px) {
     width: 100%;
