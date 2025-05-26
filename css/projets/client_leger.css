@@ -4,8 +4,12 @@
     }
 }
 
-.main_pic{
-    img{
+.main_pic {
+    img {
         width: 50%;
+    }
+
+    p {
+        margin-top: 15px;
     }
 }
