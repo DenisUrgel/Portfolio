@@ -1,7 +1,12 @@
 .contenu {
-    #intro_Bts{
+    #intro_Bts {
         width: 70%;
-    } 
+        margin-bottom: 30px;
+        background-color: rgb(236, 203, 141);
+        padding: 15px;
+        border-radius: 15px;
+    }
+
     .def {
         display: flex;
         width: 70%;
@@ -10,8 +15,28 @@
     }
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#SLAM, #SISR{
+    min-width: 48%;
+    background-color: rgb(236, 203, 141);
+    padding: 15px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.lien_details {
+    margin-top: 15px;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+.debouche{
+    display: flex;
+    gap: 60px;
+    ul{
+        list-style: none;
+        background-color: rgb(236, 203, 141);
+        padding: 15px;
+        border-radius: 15px;
+    }
 }

@@ -1,13 +1,50 @@
-.presentation_veille{
+.presentation_veille {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background-color: rgb(236, 203, 141);
+    padding: 15px;
+    border-radius: 15px;
 }
 
-.lien_utile{
+.note {
+    color: red;
+}
+
+.veille {
     display: flex;
-    /* flex-direction: column; */
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+    .def,
+    .protection,
+    .article {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: rgb(236, 203, 141);
+        padding: 15px;
+        border-radius: 15px;
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+    }
+}
+
+.btn_article {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
     text-align: center;
     gap: 20px;
 }

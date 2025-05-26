@@ -4,14 +4,25 @@
 }
 
 .contenu {
-    img{
+    img {
         border-radius: 15px;
+    }
+
+    .main_pic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            width: 50%;
+        }
     }
 }
 
-.flèche_retour{
+.flèche_retour {
     width: 50px;
-    &:hover{
+
+    &:hover {
         width: 70px;
         transition: ease-in-out 2s;
     }

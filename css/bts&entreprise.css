@@ -1,3 +1,13 @@
+.contenu{
+    h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    img {
+        height: 200px;
+    }
+}
+
 .description {
     display: flex;
     flex-direction: column;
@@ -5,14 +15,12 @@
     width: 50%;
     gap: 20px;
     margin-bottom: 30px;
+    background-color: rgb(236, 203, 141);
+    padding: 15px;
+    border-radius: 15px;
 
-    h2 {
-        font-size: 30px;
-    }
 
-    img {
-        height: 200px;
-    }
+
 
     .def {
         div {
@@ -31,8 +39,6 @@
     }
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.desc3 {
+    margin-bottom: 70px;
 }

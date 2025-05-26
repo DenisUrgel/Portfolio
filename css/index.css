@@ -1,4 +1,10 @@
 .presentation {
+  .texte {
+    background-color: rgb(236, 203, 141);
+    padding: 15px;
+    border-radius: 15px;
+  }
+
   .image_presentation {
     /* width: 50%; */
     border-radius: 10px;
@@ -23,7 +29,7 @@
   margin-bottom: 15px;
 }
 
-.div_texte_presentation{
+.div_texte_presentation {
   align-content: center;
 }
 

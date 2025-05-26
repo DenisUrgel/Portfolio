@@ -13,7 +13,12 @@
         animation: float 2s ease-in-out infinite;
     }
 
-    #star1, #star2, #star3, #star4, #star5, #star6 {
+    #star1,
+    #star2,
+    #star3,
+    #star4,
+    #star5,
+    #star6 {
         animation: blink 1s ease-in-out infinite;
     }
 
@@ -160,14 +165,16 @@
     justify-content: center;
     gap: 10px;
 
-    .lien_linkedin, .lien_github {
+    .lien_linkedin,
+    .lien_github {
         width: 80px;
         border-radius: 50%;
         position: relative;
         transition: all 0.3s ease-in-out;
 
         &:hover {
-            background-color: #3797d1;
+            transform: translateY(-0.15em);
+
         }
     }
 }

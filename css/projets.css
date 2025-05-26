@@ -1,4 +1,24 @@
+.contexte {
+  h2 {
+    font-size: 22px;
+  }
+
+  .lien_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  width: 70%;
+  text-align: center;
+  background-color: rgb(236, 203, 141);
+  padding: 15px;
+  border-radius: 15px;
+}
+
 .row {
+  margin-bottom: 50px;
+
   @media screen and (min-width: 768px) {
     width: 100%;
     display: flex;
@@ -12,6 +32,9 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    background-color: #3797d1;
+    padding: 15px;
+    border-radius: 15px;
     box-shadow: lightgray 3px 6px 10px 5px;
 
     img {
@@ -44,10 +67,14 @@
   .sous_titre {
     justify-self: center;
   }
+
+  p {
+    color: rgb(236, 203, 141);
+  }
 }
 
-footer{
-  position: absolute;
+footer {
+  position: fixed;
   bottom: 0;
   width: 100%;
 }

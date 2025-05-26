@@ -14,14 +14,12 @@ let lienVeille = document.getElementById('lien_veille_menu');
 let lienContact = document.getElementById('lien_contact_menu');
 let lienRealisation = document.getElementById('lien_realisation_menu');
 
-// let menuBureau = document.getElementById('menu');
 
 let menuMobile = document.getElementById('menu_mobile');
 
 let burgerMobile = document.getElementById('mobile_burger');
 
 let openMenu = true;
-// menuMobile.style.display = "none";
 
 burgerMobile.addEventListener('click', () => {
     if (openMenu == false) {
@@ -62,14 +60,14 @@ burgerMobile.addEventListener('click', () => {
         menuContact.style.height = "100%";
         menuRealisation.style.height = "100%";
 
-        menuMobile.style.fontSize = "24px";
-        menuAccueil.style.fontSize = "24px";
-        menuBts.style.fontSize = "24px";
-        menuEcoleEntreprise.style.fontSize = "24px";
-        menuProjets.style.fontSize = "24px";
-        menuVeille.style.fontSize = "24px";
-        menuContact.style.fontSize = "24px";
-        menuRealisation.style.fontSize = "24px";
+        menuMobile.style.fontSize = "15px";
+        menuAccueil.style.fontSize = "15px";
+        menuBts.style.fontSize = "15px";
+        menuEcoleEntreprise.style.fontSize = "15px";
+        menuProjets.style.fontSize = "15px";
+        menuVeille.style.fontSize = "15px";
+        menuContact.style.fontSize = "15px";
+        menuRealisation.style.fontSize = "15px";
 
 
         lienAccueil.style.padding = "10px";
@@ -89,7 +87,7 @@ burgerMobile.addEventListener('click', () => {
         case 'Portfolio':
             lienAccueil.style.display = "none";
             break;
-        case 'BTS':
+        case 'BTS SIO':
             lienBTS.style.display = "none";
             break;
         case 'École et Entreprise':
