@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/général.css" />
-    <link rel="stylesheet" href="../css/projets/client lourd.css" />
+    <link rel="stylesheet" href="../css/projets/owasp.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/image/icone/favicon_io/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/image/icone/favicon_io/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/image/icone/favicon_io/favicon-16x16.png" />
@@ -15,51 +15,80 @@
 </head>
 
 <body>
-<header>
-    <div class="header">
-        <a href="../index.html"><img src="/image/icone/Logo_Denis.png" alt="logo denis" id="logo" /></a>
-        <div id="mobile_burger">
-            <img src="image/bouton-de-menu.png" alt="burger_mobile" />
+    <header>
+        <div class="header">
+            <a href="../index.html"><img src="/image/icone/Logo_Denis.png" alt="logo denis" id="logo" /></a>
+            <div id="mobile_burger">
+                <img src="../image/bouton-de-menu.png" alt="burger_mobile" />
+            </div>
         </div>
-    </div>
-    <ul class="menu_mobile" id="menu_mobile">
-        <a href="../index.html" id="lien_accueil_menu">
-            <li id="accueil_menu">Accueil</li>
-        </a>
-        <a href="../BTS.html" id="lien_bts_menu">
-            <li id="bts_menu">BTS</li>
-        </a>
-        <a href="../bts_entreprise.html" id="lien_ecole_entreprise_menu">
-            <li id="ecole_entreprise_menu">Ecole-Entreprise</li>
-        </a>
-        <a href="../realisationMissions.html" id="lien_realisation_menu">
-            <li id="realisation_menu">Réalisations et Missions</li>
-        </a>
-        <a href="../projets.html" id="lien_projets_menu">
-            <li id="projets_menu">Projets</li>
-        </a>
-        <a href="../veille.html" id="lien_veille_menu">
-            <li id="veille_menu">Veille</li>
-        </a>
-        <a href="../contact.html" id="lien_contact_menu">
-            <li id="contact_menu">Contact</li>
-        </a>
-    </ul>
-</header>
+        <ul class="menu_mobile" id="menu_mobile">
+            <a href="../index.html" id="lien_accueil_menu">
+                <li id="accueil_menu">Accueil</li>
+            </a>
+            <a href="../BTS.html" id="lien_bts_menu">
+                <li id="bts_menu">BTS</li>
+            </a>
+            <a href="../bts_entreprise.html" id="lien_ecole_entreprise_menu">
+                <li id="ecole_entreprise_menu">Ecole-Entreprise</li>
+            </a>
+            <a href="../realisationMissions.html" id="lien_realisation_menu">
+                <li id="realisation_menu">Réalisations et Missions</li>
+            </a>
+            <a href="../projets.html" id="lien_projets_menu">
+                <li id="projets_menu">Projets</li>
+            </a>
+            <a href="../veille.html" id="lien_veille_menu">
+                <li id="veille_menu">Veille</li>
+            </a>
+            <a href="../contact.html" id="lien_contact_menu">
+                <li id="contact_menu">Contact</li>
+            </a>
+        </ul>
+    </header>
     <main>
         <div class="contenu">
-            <a href="../projets.html">&lArr;</a>
-            <h1 class="titre">Owasp</h1>
-            <p class="context">
-            </p>
-            <div class="lien_info">
-                <p>Voir le code :</p>
-                <a href="https://github.com/DenisUrgel/Java_bibliobus.git" class="Lien" target="_blank">Page Github</a>
+            <a href="../realisationMissions.html"><img src="../image/icone/flèche.png" alt="flèche_retour" class="flèche_retour"></a>
+            <h1 class="titre">Sécurisation d'un site avec Owasp</h1>
+            <div class="context">
+                <p>
+                    Apprendre à protéger une application web dès ses premières lignes de code, c’était l’objectif de ce
+                    projet de
+                    sécurisation en PHP, réalisé selon les principes de l’OWASP.
+                </p>
+
+                <img src="/image/requetepreparee.png" alt="requetepreparee">
+
+                <p>
+                    Pour les moins expérimentés : il s’agit ici d’une requête préparée, une technique qui permet de se
+                    prémunir contre les
+                    injections SQL. Tout simplement l’une des failles les plus connues et exploitées sur le web.
+                </p>
+                <p>L’idée est simple : au lieu qu’un utilisateur mal intentionné puisse renseigner un bout de code dans
+                    un formulaire, ce
+                    qui viendrait tromper le système et pourrait entraîner de lourdes conséquences, ici on fait en sorte
+                    que le système ne
+                    puisse jamais interpréter ce que l’utilisateur saisit comme du code.</p>
+                <p>Les plus expérimentés auront remarqué l’usage de SHA-256 pour le hachage du mot de passe. Cette
+                    méthode, bien que
+                    couramment rencontrée dans des tutoriels anciens, est aujourd’hui à éviter dans un environnement
+                    réel.</p>
+                <p>Ce choix a été fait ici dans un cadre pédagogique : l'objectif était avant tout de comprendre le
+                    fonctionnement d'une
+                    requête sécurisée, et non d'implémenter un système d'authentification complet.</p>
+                <p>En approfondissant mes connaissances, j’ai découvert qu’il est préférable d’utiliser les fonctions
+                    natives de PHP comme
+                    password_hash() et password_verify(), qui sont plus sûres car elles incluent automatiquement un sel
+                    cryptographique et
+                    utilisent des algorithmes conçus pour le hachage de mots de passe.</p>
+                <p>Cette première approche de la sécurité web m’a permis de comprendre l’importance d’isoler les données
+                    utilisateurs et
+                    d’appliquer des bonnes pratiques dès le départ pour construire des applications robustes.</p>
             </div>
         </div>
     </main>
     <footer>
-        <p id="texte_footer">denisurgel&copy;2025</p>
+        <p id="texte_footer">&copy;2025 Mon Portfolio - Tous droits réservés</p>
     </footer>
     <script src="../js/header.js"></script>
 </body>

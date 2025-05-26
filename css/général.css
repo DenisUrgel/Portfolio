@@ -99,6 +99,15 @@ body {
   }
 }
 
+.flèche_retour {
+  width: 50px;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-0.15em);
+  }
+}
+
 .Lien {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;

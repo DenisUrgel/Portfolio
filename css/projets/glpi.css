@@ -1,4 +1,19 @@
 footer {
   position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+.context{
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  background-color: rgb(236, 203, 141);
+  padding: 15px;
+  border-radius: 15px;
 }

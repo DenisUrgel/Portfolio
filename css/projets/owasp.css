@@ -1,0 +1,16 @@
+.context {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(236, 203, 141);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    img{
+        width: 60%;
+    }
+}
