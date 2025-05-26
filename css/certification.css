@@ -1,0 +1,11 @@
+.image_certif {
+    width: 50%;
+}
+
+.presentation {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
